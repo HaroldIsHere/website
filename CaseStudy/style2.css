@@ -1,0 +1,122 @@
+#logForm {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+input[type=text], input[type=password]{
+    font-size: 20px;
+    font-family: poppins, sans-serif;
+    width: 400px;
+}
+
+#btn_login {
+    font-size: 20px;
+    font-family: poppins, sans-serif;
+    background-color: transparent;
+    border-radius: 10px;;
+}
+
+body{
+    margin: 0;
+}
+
+.btnContainer {
+    width: max;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+}
+
+.btnContainer .btn {
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:25px;
+}
+
+.btnContainer button {
+    font-family: poppins, sans-serif;
+    border: 0;
+    background-color: transparent;
+    transition: ease-in-out;
+    transition-timing-function: linear;
+}
+
+.btnContainer button:hover {
+    font-weight:500;
+}
+
+.logo {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 100px;
+}
+
+.logBtn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 0;
+    top: 14px;
+    left: 1390px;
+}
+
+#highlightDeals {
+    justify-content: center;
+    display: grid;
+
+}
+
+#hlImg {
+    top: 10px;
+    position: absolute;
+    border-radius: 30px;
+    max-width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Container1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 9;
+    top: 350px;
+    left: 80px;
+}
+
+.Container1 .btnNext {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 0;
+    opacity: 0.4;
+}
+
+.Container2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 9;
+    top: 350px;
+    left: 1375px;
+}
+
+.Container2 .btnBack {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 0;
+    opacity: 0.4;
+}

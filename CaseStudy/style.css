@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.btnContainer {
+    width: max;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+}
+
+.btnContainer .btn {
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:25px;
+}
+
+.btnContainer button {
+    font-family: poppins, sans-serif;
+    border: 0;
+    background-color: transparent;
+    transition: ease-in-out;
+    transition-timing-function: linear;
+}
+
+.btnContainer button:hover {
+    font-weight:500;
+}
+
+.logo {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 100px;
+}
+
+.logBtn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 0;
+    top: 14px;
+    left: 1390px;
+}
+
+#highlightDeals {
+    justify-content: center;
+    display: grid;
+
+}
+
+/* #hlImg {
+    top: 10px;
+    position: relative;
+    border-radius: 30px;
+    max-width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    animation: changePhoto ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+} */
+
+.hlImg1 {
+    top: 10px;
+    position: relative;
+    border-radius: 30px;
+    max-width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    animation: changePhoto ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes changePhoto {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.Container1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 9;
+    top: 350px;
+    left: 80px;
+}
+
+.Container1 .btnNext {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 0;
+    opacity: 0.4;
+}
+
+.Container2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 9;
+    top: 350px;
+    left: 1375px;
+}
+
+.Container2 .btnBack {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 0;
+    opacity: 0.4;
+}
+
+.LabelShop {
+    font-family: poppins, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#iPhone {
+}
+
+.phoneContainer1 {
+    height: 450px;
+    align-items: center;
+    margin-left: 80px;
+    display: grid;
+    grid-auto-flow: column;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+
+.phoneContainer1::-webkit-scrollbar {
+    display: none;
+  }
+
+.iPhone15ProMax {
+    margin-left: 30px;
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 0px 10px #c0bfbf6a;
+    transition: transform ease 0.3s;
+}
+
+.iPhone15Pro {
+    margin-left: 30px;
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 0px 10px #c0bfbf6a;
+    transition: transform ease 0.3s;
+}
+
+.iPhone15Plus {
+    margin-left: 30px;
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 0px 10px #c0bfbf6a;
+    transition: transform ease 0.3s;
+}
+
+.iPhone15 {
+    margin-left: 30px;
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 0px 10px #c0bfbf6a;
+    transition: transform ease 0.3s;
+}
+
+.iPhone14ProMax {
+    margin-left: 30px;
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 0px 10px #c0bfbf6a;
+    transition: transform ease 0.3s;
+}
+
+.phoneContainer1 div:hover {
+    transform: scale(1.03);
+ }
+
+ .ip15PM{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 250px;
+    height: 250px;
+ }
+
+ 
