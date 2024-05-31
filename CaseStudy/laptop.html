@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phone Shop</title>
+    <title>Laptops</title>
     <link rel="stylesheet" type="text/css" href="stylePhone.css">
     <script src="JavaScript.js"></script>
 </head>
@@ -25,10 +25,10 @@
                 <button class="btn" onclick="goToPhoneShop()">
                     <p>Phones</p>
                 </button>
-                <button class="btn">
+                <button class="btn" onclick="goToTabShop()">
                     <p>Tablet</p>
                 </button>
-                <button class="btn" onclick="goToLaptopShop()">
+                <button class="btn">
                     <p>Laptop</p>
                 </button>
                 <button class="btn">
@@ -100,31 +100,31 @@
         <p class="bannerTitle"> Need a phone? We got you.</p>
         <img class="banner" src="img\banner.png">
         <section id="iPhone">
-            <p class="iphoneLbl"> Apple / iPhone </p> 
+            <p class="iphoneLbl"> Mac </p> 
             <div class="phoneContainer1">
                 <div class="divider"></div>
                 <div id="1" class = "productContainer" onclick="toggle(), collectData(this.id)">
-                    <p class="productTitle"> iPhone 15 Pro Max</p>
+                    <p class="productTitle"> Macbook Pro 2023 </p>
                     <img class="phoneIMG" src ="img\iPhone15ProMax.png">
                     <p class="price">For only ₱89,990</p>
                 </div>
                 <div id="2" class = "productContainer" onclick="toggle(), collectData(this.id)">
-                    <p class="productTitle"> iPhone 15 Pro</p>
+                    <p class="productTitle"> Macbook Air 2023 </p>
                     <img class="phoneIMG" src ="img\iphone15pro.png">
                     <p class="price">For only ₱69,990</p>
                 </div>
                 <div id="3" class = "productContainer" onclick="toggle(), collectData(this.id)">
-                    <p class="productTitle"> iPhone 15 Plus</p>
+                    <p class="productTitle"> Macbook Pro 2021 </p>
                     <img class="phoneIMG" src ="img\iphone15plus.png">
                     <p class="price">For only ₱59,990</p>
                 </div>
                 <div id="4" class = "productContainer" onclick="toggle(), collectData(this.id)">
-                    <p class="productTitle"> iPhone 15</p>
+                    <p class="productTitle"> Macbook Air 2021</p>
                     <img class="phoneIMG" src ="img\iphone15.png">
                     <p class="price">For only ₱49,990</p>
                 </div>
                 <div id="5" class = "productContainer" onclick="toggle(), collectData(this.id)">
-                    <p class="productTitle"> iPhone 14</p>
+                    <p class="productTitle"> Mac Mini </p>
                     <img class="phoneIMG" src ="img\iphone14.png">
                     <p class="price">For only ₱40,990</p>
                 </div>
@@ -135,7 +135,7 @@
         <br>
 
         <section id="Samsung">
-            <p class="iphoneLbl"> Samsung </p> 
+            <p class="iphoneLbl"> Asus </p> 
             <div class="phoneContainer2">
                 <div class="divider"></div>
                 <div id="6" class = "productContainer" onclick="toggle(), collectData(this.id)">
@@ -170,16 +170,6 @@
                 </div>
                 <div class="divider"></div>
             </div>
-
-        </section>
-        <section id="Xiaomi">
-            <p class="iphoneLbl"> Xiaomi </p> 
-            <div id="phoneContainer3">
-
-            </div>
-        </section>
-        <section id="Huawei">
-
         </section>
 
     </section>
