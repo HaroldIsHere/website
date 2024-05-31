@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styleHome.css">
+    <script src="JavaScript.js"></script>
+</head>
+<body id="body2">
+    <section>
+        <section id="navbar">
+            <h1 class="logo">i<span class="logo2">Buy</span></h1>
+            <a href="log.html"> <input type="image" class = "logBtn" src="img\log.png"/></a>
+            <div class="btnContainer">
+                <button class="btn">
+                    <p>Home</p>
+                </button>
+                <button class="btn">
+                    <p>About</p>
+                </button>
+                <button class="btn" onclick="goToPhoneShop()">
+                    <p>Phones</p>
+                </button>
+                <button class="btn" onclick="goToTabShop()">
+                    <p>Tablet</p>
+                </button>
+                <button class="btn" onclick="goToLaptopShop()">
+                    <p>Laptop</p>
+                </button>
+                <button class="btn">
+                    <p>Wearables</p>
+                </button>
+            </div>
+            <div class="subMenu">
+                    
+            </div>
+        </section>
+    </section>
+    <section id="sec1">
+        <div id="welcomeContainer">
+            <h1 class="welcomeTitle">
+                Welcome to iBuy!
+                <span class="subTitle"> Pick all you want.</span>
+            </h1>
+        </div>
+            <div id="choices1">
+                <div class="choice" onclick="goToPhoneShop()">
+                    <img class="imgChoices" src="img\HomeImg\1.png">
+                    <p class="choiceTitle1">Need a Phone?</p>
+                </div>
+                <div class="choice">
+                    <img class="imgChoices" src="img\HomeImg\4.png">
+                    <p class="choiceTitle2">Level up your Experience!</p>
+                    <p class="desc2">Buy an Earpod</p>
+                </div>
+                <div class="choice">
+                    <img class="imgChoices" src="img\HomeImg\2.png">
+                    <p class="choiceTitle3">Choose Your New Laptop.</p>
+                    <p class="desc3">Buy yours now!</p>
+                </div>
+                <div class="choice">
+                    <img class="imgChoices" src="img\HomeImg\3.png">
+                    <p class="choiceTitle4">Get a Companion.</p>
+                    <p class="desc4">Get a Tablet.</p>
+                </div>
+                <div class="choice2">
+                    <img class="imgChoices" src="img\HomeImg\5.png">
+                    <p class="choiceTitle">Earpods</p>
+                </div>
+            </div>
+        
+        <p class="hlImg1Title">iPhone 15 | <span class="subTitle2">Now Available!</span></p>
+        <div id="highlightDeals">
+            <button id="buy1"> Buy now</button>
+            <img class="hlImg1" src="img\iPhoneHighlights.png">
+        </div>
+        <p class="titleDeals">Check out our latest Deals. <span class="subTitle3"> We have everything for you. </span></p>
+        <div id="1">
+            <div id="containerDeals">
+                <div class="deal1">
+                    <img class="dealsImg" src="img\HomeImg\xiaomi14.png">
+                    <p class="dealDescTitle1"> New Xiaomi 14 Model.</p>
+                </div>
+                <div class="deal2">
+                    <img class="dealsImg2" src="img\HomeImg\iPadNew.png">
+                    <p class="dealDescTitle2"> iPad 10th Gen.</p>
+                </div>
+                <div class="deal3">
+                    <img class="dealsImg3" src="img\HomeImg\rogNew.png">
+                    <p class="dealDescTitle3"> ASUS ROG Strix</p>
+                </div>
+                <section class="divider">
+                    <div class="deal4">
+                        <img class="dealsImg4" src="img\HomeImg\airpodsNew.png">
+                    </div>
+                    <div class="deal5">
+                        <img class="dealsImg4" src="img\HomeImg\watchNew.png">
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

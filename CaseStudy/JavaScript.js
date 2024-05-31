@@ -5,7 +5,7 @@ function logIn() {
     var password = document.getElementById("password1").value;
 
     if (username == "fritzbautista100@gmail.com" && password == "bautista") {
-        window.location.href = "Shop.html";
+        window.location.href = "index.html";
         return true;
     } else {
         attempt++
@@ -55,7 +55,7 @@ function goToPhoneShop() {
 }
 
 function gotoHome(){
-    window.location.href = "Shop.html";
+    window.location.href = "index.html";
 }
 
 const product = [
