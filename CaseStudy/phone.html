@@ -105,28 +105,30 @@
         <p class="bannerTitle"> Need a phone? We got you.</p>
         <img id="section1" class="banner" src="img\banner.png">
         <section id="iPhone">
+            <button id="next" value="con1" onclick="scrolltoRight(this.id)"> </button>
+            <button id="back" value="con1" onclick="scrolltoLeft(this.id)"> </button>
             <p class="iphoneLbl"> Apple / iPhone </p> 
-            <div class="phoneContainer1">
+            <div id= "con1"class="phoneContainer1">
                 <div class="divider"></div>
                 <div id="1" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> iPhone 15 Pro Max</p>
                     <img class="phoneIMG" src ="img\Phones\Apple\iPhone15ProMax.png">
-                    <p class="price">For only ₱89,990</p>
+                    <p class="price">For only ₱108,990</p>
                 </div>
                 <div id="2" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> iPhone 15 Pro</p>
                     <img class="phoneIMG" src ="img\Phones\Apple\iphone15pro.png">
-                    <p class="price">For only ₱69,990</p>
+                    <p class="price">For only ₱84,990</p>
                 </div>
                 <div id="3" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> iPhone 15 Plus</p>
                     <img class="phoneIMG" src ="img\Phones\Apple\iphone15plus.png">
-                    <p class="price">For only ₱59,990</p>
+                    <p class="price">For only ₱79,990</p>
                 </div>
                 <div id="4" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> iPhone 15</p>
                     <img class="phoneIMG" src ="img\Phones\Apple\iphone15.png">
-                    <p class="price">For only ₱49,990</p>
+                    <p class="price">For only ₱69,990</p>
                 </div>
                 <div id="5" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> iPhone 14</p>
@@ -146,22 +148,22 @@
                 <div id="6" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> Samsung S24 Ultra</p>
                     <img class="phoneIMG" src ="img\Phones\Samsung\s24ultra.png">
-                    <p class="price">For only ₱79,990</p>
+                    <p class="price">For only ₱84,990</p>
                 </div>
                 <div id="7" class = "productContainer"  onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> Samsung S24 Plus</p>
                     <img class="phoneIMG" src ="img/Phones/Samsung/s24plus.png">
-                    <p class="price">For only ₱59,990</p>
+                    <p class="price">For only ₱69,990</p>
                 </div>
                 <div id="8" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> Samsung S24 </p>
                     <img class="phoneIMG" src ="img/Phones/Samsung/s24.png">
-                    <p class="price">For only ₱39,990</p>
+                    <p class="price">For only ₱54,990</p>
                 </div>
                 <div id="9" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> Samsung A55</p>
                     <img class="phoneIMG" src ="img\Phones\Samsung\a55.png">
-                    <p class="price">For only ₱25,990</p>
+                    <p class="price">For only ₱24,990</p>
                 </div>
                 <div id="10" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> Samsung A35</p>
@@ -179,12 +181,47 @@
         </section>
         <section id="Xiaomi">
             <p class="iphoneLbl"> Xiaomi </p> 
-            <div id="phoneContainer3">
+            <div class="phoneContainer1">
+                <div class="divider"></div>
+                <div id="36" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                    <p class="productTitle"> Xiaomi 14 Ultra</p>
+                    <img class="phoneIMG" src ="img\Phones\Xiaomi\Xiaomi 14 Ultra.png">
+                    <p class="price">For only ₱89,990</p>
+                </div>
+                <div id="37" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                    <p class="productTitle"> Xiaomi 14 Pro</p>
+                    <img class="phoneIMG" src ="img\Phones\Xiaomi\Xiaomi 14 Pro.png">
+                    <p class="price">For only ₱69,990</p>
+                </div>
+                <div id="38" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                    <p class="productTitle"> Xiaomi 14</p>
+                    <img class="phoneIMG" src ="img\Phones\Xiaomi\Xiaomi 14.png">
+                    <p class="price">For only ₱59,990</p>
+                </div>
+                <div id="39" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                    <p class="productTitle"> Redmi Note 13 Pro Ultra 5G </p>
+                    <img class="phoneIMG" src ="img\Phones\Xiaomi\Redmi Note 13 Pro Ultra 5G.png">
+                    <p class="price">For only ₱49,990</p>
+                </div>
+                <div id="40" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                    <p class="productTitle"> Redmi Note 13 Pro 5G </p>
+                    <img class="phoneIMG" src ="img\Phones\Xiaomi\Redmi Note 13 Pro 5G.png">
+                    <p class="price">For only ₱40,990</p>
+                </div>
+                <div id="41" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                    <p class="productTitle"> Redmi Note 13 Pro 4G </p>
+                    <img class="phoneIMG" src ="img\Phones\Xiaomi\Redmi Note 13 Pro 4G.png">
+                    <p class="price">For only ₱40,990</p>
+                </div>
+                <div id="42" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                    <p class="productTitle"> Redmi Note 13 4G </p>
+                    <img class="phoneIMG" src ="img\Phones\Xiaomi\Redmi Note 13 4G.png">
+                    <p class="price">For only ₱40,990</p>
+                </div>
+                <div class="divider"></div>
+            </div>
 
             </div>
-        </section>
-        <section id="Huawei">
-
         </section>
 
         <p class="bannerTitle2"> Need a Tablet? We got you.</p>
@@ -197,12 +234,12 @@
                 <div id="12" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> iPad Pro 12.9 Inch M4 </p>
                     <img class="phoneIMG" src ="img\Tablets\Apple\iPad Pro 12.9.png">
-                    <p class="price">For only ₱89,990</p>
+                    <p class="price">For only ₱109,990</p>
                 </div>
                 <div id="13" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> iPad Pro 11 Inch M4 </p>
                     <img class="phoneIMG" src ="img\Tablets\Apple\iPad Pro 11.png">
-                    <p class="price">For only ₱69,990</p>
+                    <p class="price">For only ₱89,990</p>
                 </div>
                 <div id="14" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> iPad Air M2  </p>
@@ -212,12 +249,12 @@
                 <div id="15" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> iPad 10th Generation</p>
                     <img class="phoneIMG" src ="img\Tablets\Apple\iPad 10th Gen.png">
-                    <p class="price">For only ₱49,990</p>
+                    <p class="price">For only ₱28,990</p>
                 </div>
                 <div id="16" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> iPad Mini 6 </p>
                     <img class="phoneIMG" src ="img\Tablets\Apple\iPad Mini 6.png">
-                    <p class="price">For only ₱40,990</p>
+                    <p class="price">For only ₱25,990</p>
                 </div>
                 <div class="divider"></div>
             </div>
@@ -232,7 +269,7 @@
                 <div id="17" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> Samsung Tab S9 Ultra</p>
                     <img class="phoneIMG" src ="img\Tablets\Samsung\s9 Ultra.png">
-                    <p class="price">For only ₱79,990</p>
+                    <p class="price">For only ₱89,990</p>
                 </div>
                 <div id="18" class = "productContainer"  onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> Samsung Tab S9 Plus</p>
@@ -247,52 +284,52 @@
                 <div id="20" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> Samsung Tab S9 FE </p>
                     <img class="phoneIMG" src ="img\Tablets\Samsung\Samsung Tab s9 FE.png">
-                    <p class="price">For only ₱39,990</p>
+                    <p class="price">For only 24,990</p>
                 </div>
                 <div id="21" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> Samsung Tab A9+</p>
                     <img class="phoneIMG" src ="img\Tablets\Samsung\Samsung Tab A9+.png">
-                    <p class="price">For only ₱25,990</p>
+                    <p class="price">For only ₱19,990</p>
                 </div>
                 <div id="22" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> Samsung Tab a9</p>
                     <img class="phoneIMG" src ="img\Tablets\Samsung\Samsung Tab A9.png">
-                    <p class="price">For only ₱19,990</p>
+                    <p class="price">For only ₱9,990</p>
                 </div>
                 <div class="divider"></div>
             </div>
         </section>
 
-        <p class="bannerTitle2"> Need a phone? We got you.</p>
+        <p class="bannerTitle2"> Need a Laptop? We got you.</p>
         <img id="section3" class="banner" src="img\banner2.png">
         <section id="MacApple">
             <p class="iphoneLbl"> Mac </p> 
             <div class="phoneContainer1">
                 <div class="divider"></div>
-                <div id="1" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                <div id="23" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> Macbook Pro 2023 </p>
                     <img class="phoneIMG" src ="img\Laptops\Apple\Macbook Pro M3 2023.png">
-                    <p class="price">For only ₱89,990</p>
+                    <p class="price">For only ₱109,990</p>
                 </div>
-                <div id="2" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                <div id="24" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> Macbook Air 2023 </p>
                     <img class="phoneIMG" src ="img\Laptops\Apple\Macbook Air M3 2023.png">
-                    <p class="price">For only ₱69,990</p>
-                </div>
-                <div id="3" class = "productContainer" onclick="toggle(), collectData(this.id)">
-                    <p class="productTitle"> Macbook Pro 2021 </p>
-                    <img class="phoneIMG" src ="img\Laptops\Apple\Macbook Pro M1 2021.png">
                     <p class="price">For only ₱59,990</p>
                 </div>
-                <div id="4" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                <div id="25" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                    <p class="productTitle"> Macbook Pro 2021 </p>
+                    <img class="phoneIMG" src ="img\Laptops\Apple\Macbook Pro M1 2021.png">
+                    <p class="price">For only ₱79,990</p>
+                </div>
+                <div id="26" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> Macbook Air 2021</p>
                     <img class="phoneIMG" src ="img\Laptops\Apple\Macbook Air M1 2021.png">
-                    <p class="price">For only ₱49,990</p>
+                    <p class="price">For only ₱39,990</p>
                 </div>
-                <div id="5" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                <div id="27" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> Mac Mini </p>
                     <img class="phoneIMG" src ="img\Laptops\Apple\Mac Mini.png">
-                    <p class="price">For only ₱40,990</p>
+                    <p class="price">For only ₱30,990</p>
                 </div>
                 <div class="divider"></div>
             </div>
@@ -302,21 +339,62 @@
 
         <section id="AsusLaptops">
             <p class="iphoneLbl"> Asus </p> 
-            <div class="phoneContainer2">
+            <div class="phoneContainer1">
                 <div class="divider"></div>
-                <div id="6" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                <div id="28" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle">Zenbook 14</p>
                     <img class="phoneIMG" src ="img\Laptops\Asus\Zenbook 14.png">
                     <p class="price">For only ₱79,990</p>
                 </div>
-                <div id="7" class = "productContainer"  onclick="toggle(), collectData(this.id)">
+                <div id="29" class = "productContainer"  onclick="toggle(), collectData(this.id)">
                     <p class="productTitle">Vivobook S15</p>
                     <img class="phoneIMG" src ="img\Laptops\Asus\Vivbook S15.png">
                     <p class="price">For only ₱59,990</p>
                 </div>
-                <div id="8" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                <div id="30" class = "productContainer" onclick="toggle(), collectData(this.id)">
                     <p class="productTitle"> ASUS ROG Strix G15 </p>
                     <img class="phoneIMG" src ="img\Laptops\Asus\Asus ROG Strix G15.png">
+                    <p class="price">For only ₱39,990</p>
+                </div>
+                <div class="divider"></div>
+            </div>
+        </section>
+
+        <section id="AppleWearables">
+            <p class="iphoneLbl"> Apple Wearables </p> 
+            <div class="phoneContainer1">
+                <div class="divider"></div>
+                <div id="31" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                    <p class="productTitle">AirPods Max</p>
+                    <img class="phoneIMG" src ="img\Wearables\AirPods Max.png">
+                    <p class="price">For only ₱19,990</p>
+                </div>
+                <div id="32" class = "productContainer"  onclick="toggle(), collectData(this.id)">
+                    <p class="productTitle">AirPods Pro </p>
+                    <img class="phoneIMG" src ="img\Wearables\AirPods Pro 2nd Generation.png">
+                    <p class="price">For only ₱9,990</p>
+                </div>
+                <div id="33" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                    <p class="productTitle"> Apple Watch Series 9 </p>
+                    <img class="phoneIMG" src ="img\Wearables\Apple Watch Series 9.png">
+                    <p class="price">For only ₱39,990</p>
+                </div>
+                <div class="divider"></div>
+            </div>
+        </section>
+
+        <section id="SamsungWearables">
+            <p class="iphoneLbl"> Samsung Wearables </p> 
+            <div class="phoneContainer2">
+                <div class="divider"></div>
+                <div id="34" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                    <p class="productTitle"> Galaxy Watch 4 </p>
+                    <img class="phoneIMG" src ="img\Wearables\Galaxy Watch 4.png">
+                    <p class="price">For only ₱39,990</p>
+                </div>
+                <div id="35" class = "productContainer" onclick="toggle(), collectData(this.id)">
+                    <p class="productTitle"> Galaxy Buds 2 Pro </p>
+                    <img class="phoneIMG" src ="img\Wearables\Galaxy Buds2 Pro.png">
                     <p class="price">For only ₱39,990</p>
                 </div>
                 <div class="divider"></div>

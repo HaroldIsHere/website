@@ -66,7 +66,7 @@ const product = [
         color2: "#383e70",
         color3: "#dfded8",
         title: 'iPhone 15 Pro Max',
-        price: 89990,
+        price: 108990,
     },
     {
         id: 2,
@@ -75,7 +75,7 @@ const product = [
         color2: "#383e70",
         color3: "#dfded8",
         title: 'iPhone 15 Pro',
-        price: 79990,
+        price: 84990,
     },
     {
         id: 3,
@@ -93,7 +93,7 @@ const product = [
         color2: "#383e70",
         color3: "#dfded8",
         title: 'iPhone 15',
-        price: 79990,
+        price: 69990,
     },
     {
         id: 5,
@@ -102,7 +102,7 @@ const product = [
         color2: "#fef575",
         color3: "#f3caf8",
         title: 'iPhone 14',
-        price: 79990,
+        price: 40990,
     },
     {
         id: 6,
@@ -111,7 +111,7 @@ const product = [
         color2: "#fef575",
         color3: "#f3caf8",
         title: 'Samsung S24 Ultra',
-        price: 79990,
+        price: 84990,
     },
     {
         id: 7,
@@ -120,109 +120,109 @@ const product = [
         color2: "#fef575",
         color3: "#f3caf8",
         title: 'Samsung S24 Plus',
-        price: 79990,
+        price: 69990,
     },
     {
         id: 8,
         image: 'img/Phones/Samsung/s24.png',
         title: 'Samsung S24',
-        price: 79990,
+        price: 54990,
     },
     {
         id: 9,
         image: 'img/Phones/Samsung/a55.png',
         title: 'Samsung A55',
-        price: 79990,
+        price: 24990,
     },
     {
         id: 10,
         image: 'img/Phones/Samsung/a35.png',
         title: 'Samsung A35',
-        price: 79990,
+        price: 19990,
     },
     {
         id: 11,
         image: 'img/Phones/Samsung/a05.png',
         title: 'Samsung A05',
-        price: 79990,
+        price: 5990,
     },
     {
         id: 12,
         image: 'img/Tablets/Apple/iPad Pro 12.9.png',
         title: 'iPad Pro 12.9 Inch M4',
-        price: 79990,
+        price: 109990,
     },
     {
         id: 13,
         image: 'img/Tablets/Apple/iPad Pro 11.png',
         title: 'iPad Pro 11 Inch M4',
-        price: 79990,
+        price: 89990,
     },
     {
         id: 14,
         image: 'img/Tablets/Apple/iPad Air 11.png',
         title: 'iPad Air M2',
-        price: 79990,
+        price: 42990,
     },
     {
         id: 15,
         image: 'img/Tablets/Apple/iPad 10th Gen.png',
         title: 'iPad 10th Generation',
-        price: 79990,
+        price: 28990,
     },
     {
         id: 16,
         image: 'img/Tablets/Apple/iPad Mini 6.png',
         title: 'iPad Mini 6',
-        price: 79990,
+        price: 24990,
     },
     {
         id: 17,
         image: 'img/Tablets/Samsung/s9 Ultra.png',
         title: 'Samsung Tab S9 Ultra',
-        price: 79990,
+        price: 89990,
     },
     {
         id: 18,
         image: 'img/Tablets/Samsung/s9 Plus.png',
         title: 'Samsung Tab S9 Ultra',
-        price: 79990,
+        price: 59990,
     },
     {
         id: 19,
         image: 'img/Tablets/Samsung/Samsung Tab S9.png',
         title: 'Samsung Tab S9 Ultra',
-        price: 79990,
+        price: 39990,
     },
     {
         id: 20,
         image: 'img/Tablets/Samsung/Samsung Tab s9 FE.png',
         title: 'Samsung Tab S9 FE',
-        price: 79990,
+        price: 24990,
     },
     {
         id: 21,
         image: 'img/Tablets/Samsung/Samsung Tab A9+.png',
         title: 'Samsung Tab S9 FE',
-        price: 79990,
+        price: 19990,
     },
     {
         id: 22,
         image: 'img/Tablets/Samsung/Samsung Tab A9.png',
         title: 'Samsung Tab S9 FE',
-        price: 79990,
+        price: 9990,
     },
     {
         id: 23,
         image: 'img/Laptops/Apple/Macbook Pro M3 2023.png',
         title: 'Macbook Pro M3 2023',
-        price: 79990,
+        price: 109990,
     },
     {
         id: 24,
         image: 'img/Laptops/Apple/Macbook Air M3 2023.png',
         title: 'Macbook Air M3 2023',
-        price: 79990,
+        price: 59990,
     },
     {
         id: 25,
@@ -232,32 +232,109 @@ const product = [
     },
     {
         id: 26,
-        image: 'img/Laptops/Apple/Mac Mini.png',
-        title: 'Mac Mini',
-        price: 79990,
+        image: 'img/Laptops/Apple/Macbook Air M1 2021.png',
+        title: 'Macbook Air M1 2021',
+        price: 39990,
     },
     {
         id: 27,
-        image: 'img/Laptops/Apple/Macbook Air M1 2021.png',
-        title: 'Macbook Air M1 2021',
-        price: 79990,
+        image: 'img/Laptops/Apple/Mac Mini.png',
+        title: 'Mac Mini',
+        price: 30990,
     },
     {
         id: 28,
-        image: 'img/Laptops/Apple/Macbook Air M1 2021.png',
-        title: 'Macbook Air M1 2021',
+        image: 'img/Laptops/Asus/Zenbook 14.png',
+        title: 'Zenbook 14',
         price: 79990,
     },
     {
         id: 29,
-        image: 'img/Laptops/Apple/Macbook Air M1 2021.png',
-        title: 'Macbook Air M1 2021',
+        image: 'img/Laptops/Asus/Vivbook S15.png',
+        title: 'Vivobook S15',
+        price: 79990,
+    },
+    {
+        id: 30,
+        image: 'img/Laptops/Asus/Asus ROG Strix G15.png',
+        title: 'Asus ROG Strix G15',
+        price: 79990,
+    },
+    {
+        id: 31,
+        image: 'img/Wearables/AirPods Max.png',
+        title: 'AirPods Max',
+        price: 79990,
+    },
+    {
+        id: 32,
+        image: 'img/Wearables/AirPods Pro 2nd Generation.png',
+        title: 'AirPods Pro 2nd Generation',
+        price: 79990,
+    },
+    {
+        id: 33,
+        image: 'img/Wearables/Apple Watch Series 9.png',
+        title: 'Apple Watch Series 9',
+        price: 79990,
+    },
+    {
+        id: 34,
+        image: 'img/Wearables/Galaxy Watch 4.png',
+        title: 'Galaxy Watch 4',
+        price: 79990,
+    },
+    {
+        id: 35,
+        image: 'img/Wearables/Galaxy Buds2 Pro.png',
+        title: 'Galaxy Buds 2 Pro',
+        price: 79990,
+    },
+    {
+        id: 36,
+        image: 'img/Phones/Xiaomi/Xiaomi 14 Ultra.png',
+        title: 'Xiaomi 14 Ultra',
+        price: 79990,
+    },
+    {
+        id: 37,
+        image: 'img/Phones/Xiaomi/Xiaomi 14 Pro.png',
+        title: 'Xiaomi 14 Pro',
+        price: 79990,
+    },
+    {
+        id: 38,
+        image: 'img/Phones/Xiaomi/Xiaomi 14.png',
+        title: 'Xiaomi 14',
+        price: 79990,
+    },
+    {
+        id: 39,
+        image: 'img/Phones/Xiaomi/Redmi Note 13 Pro Ultra 5G.png',
+        title: 'Redmi Note 13 Pro Ultra 5G',
+        price: 79990,
+    },
+    {
+        id: 40,
+        image: 'img/Phones/Xiaomi/Redmi Note 13 Pro 5G.png',
+        title: 'Redmi Note 13 Pro 5G',
+        price: 79990,
+    },
+    {
+        id: 41,
+        image: 'img/Phones/Xiaomi/Redmi Note 13 Pro 4G.png',
+        title: 'Redmi Note 13 Pro 4G',
+        price: 79990,
+    },
+    {
+        id: 42,
+        image: 'img/Phones/Xiaomi/Redmi Note 13 4G.png',
+        title: 'Redmi Note 13 4G',
         price: 79990,
     }
 ];
 
 const shop_products = [];
-let dataTransfer = [];
 
 var idStore = 0;
 var colorStore = 0;
@@ -287,17 +364,17 @@ function getColor(colorID) {
         document.getElementById(colorID).style.border = "solid rgba(0, 0, 0, 0.237)";
         document.getElementById("color2").style.border = "none";
         document.getElementById("color3").style.border = "none";
-        colorName = product[idStore].color1;
+        colorName = product[idStore-1].color1;
     } else if (colorStore == "color2") {
         document.getElementById(colorID).style.border = "solid rgba(0, 0, 0, 0.237)";
         document.getElementById("color1").style.border = "none";
         document.getElementById("color3").style.border = "none";
-        colorName = product[idStore].color2;
+        colorName = product[idStore-1].color2;
     } else if (colorStore == "color3") {
         document.getElementById(colorID).style.border = "solid rgba(0, 0, 0, 0.237)";
         document.getElementById("color1").style.border = "none";
         document.getElementById("color2").style.border = "none";
-        colorName = product[idStore].color3;
+        colorName = product[idStore-1].color3;
     }
 }
 
@@ -383,7 +460,6 @@ function addtocart1(event) {
         cartItem.appendChild(cartQuantity);
 
         document.querySelector('#listContainer').appendChild(cartItem);
-        dataTransfer.push(cartItem);
 
         let priceValue = price.replace(/₱|,/g, "");
         const parsedPrice = parseFloat(priceValue);
@@ -459,25 +535,12 @@ function exitCart() {
     document.getElementById("container4").style.animation = "out 1s ease-in-out forwards";
 }
 
-function renderArray() {
-    dataTransfer.forEach((item, index) => {
-        document.querySelector('#listContainer').appendChild(item);
-    });
+function scrolltoRight(idTemp) {
+    const val = document.getElementById(idTemp).value;
+    document.getElementById(val).scrollLeft += 300;
 }
 
-function saveArray() {
-    const arrayString = JSON.stringify(dataTransfer);
-    localStorage.setItem('myArray', arrayString);
-    alert('Array saved!');
-}
-
-function loadArray() {
-    const arrayString = localStorage.getItem('myArray');
-    if (arrayString) {
-        dataTransfer = JSON.parse(arrayString);
-        renderArray();
-        alert('Array loaded!');
-    } else {
-        alert('No saved array found.');
-    }
+function scrolltoLeft(idTemp) {
+    const val = document.getElementById(idTemp).value;
+    document.getElementById(val).scrollLeft -= 300;
 }
